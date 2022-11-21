@@ -1,6 +1,8 @@
 <script>
 import WhatWeDo from '../components/WhatWeDo.vue'
 import BusinessStrategy from '../components/BusinessStrategy.vue'
+import LatestWork from '../components/LatestWork.vue'
+
 
 
 export default {
@@ -8,6 +10,7 @@ export default {
         components: {
            WhatWeDo,
            BusinessStrategy,
+           LatestWork,
         }
       
     }
@@ -16,6 +19,7 @@ export default {
 <template>
    <WhatWeDo />
    <BusinessStrategy />
+   <LatestWork />
 </template>
 
 <style>
