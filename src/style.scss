@@ -1,1 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body{
+  font-family: 'Alexandria', sans-serif;
+}
+
+header{
+  button{
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    border: 0;
+
+}
+  .button_blue{
+    background-image: linear-gradient(to right, #03a7d3e6 , #1d4588);
+
+}
+.button_pink{
+  background-image: linear-gradient(to right, #b6246e , #f9636b);
+  margin-right: 2rem;
+
+}
+}
