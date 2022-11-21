@@ -1,10 +1,13 @@
 <script>
 import WhatWeDo from '../components/WhatWeDo.vue'
+import BusinessStrategy from '../components/BusinessStrategy.vue'
+
 
 export default {
         name: "AppMain",
         components: {
            WhatWeDo,
+           BusinessStrategy,
         }
       
     }
@@ -12,6 +15,7 @@ export default {
 
 <template>
    <WhatWeDo />
+   <BusinessStrategy />
 </template>
 
 <style>
