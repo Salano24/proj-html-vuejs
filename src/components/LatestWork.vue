@@ -5,7 +5,7 @@ export default{
 </script>
 
 <template>
-<div class="container">
+<div class="container_work">
     <span class="portfolio">Portfolio</span>
     <div class="work">
         <div class="work_text">
@@ -70,8 +70,10 @@ export default{
 </template>
 
 <style lang="scss">
-   .container{
+   .container_work{
     padding-top: 5rem;
+    width: 80%;
+    margin: auto;
        
     .portfolio{
         font-size: 0.75rem;

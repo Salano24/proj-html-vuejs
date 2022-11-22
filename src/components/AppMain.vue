@@ -1,7 +1,9 @@
 <script>
 import WhatWeDo from '../components/WhatWeDo.vue'
 import BusinessStrategy from '../components/BusinessStrategy.vue'
-import LatestWork from '../components/LatestWork.vue'
+import LatestWork from '../components/LatestWork.vue'        
+import OurPricing from '../components/OurPricing.vue'
+
 
 
 
@@ -11,6 +13,8 @@ export default {
            WhatWeDo,
            BusinessStrategy,
            LatestWork,
+           OurPricing,
+
         }
       
     }
@@ -20,6 +24,7 @@ export default {
    <WhatWeDo />
    <BusinessStrategy />
    <LatestWork />
+   <OurPricing />
 </template>
 
 <style>
