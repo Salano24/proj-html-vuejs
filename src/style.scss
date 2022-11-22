@@ -29,6 +29,7 @@ body{
 .row{
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .container{
@@ -37,11 +38,15 @@ body{
 }
 
 .col-3{
-  width: calc(100% / 12 * 3);
+  width: calc(100% / 12 * 3 - 15px);
 }
 
 .col-6{
-  width: calc(100% / 12 * 6);
+  width: calc(100% / 12 * 6 - 15px);
+}
+
+.col-4{
+  width: calc(100% / 12 * 4 - 15px);
 }
 
 

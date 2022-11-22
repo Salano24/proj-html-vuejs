@@ -14,8 +14,8 @@
         <div class="container_card">
             <div class="row">
                 <div class="col-6 ">
-                    
-                         <div class="card_content bg_image">
+                
+                        <div class="card_content bg_image">
                               <div class="card_text">
                             <p class="date">April 21,2019 - by Paul</p>
                             <h4>Amazon gets CCI nod to acquire 49% stake in</h4>
@@ -24,11 +24,9 @@
                         <div class="card_button">
                             <button>Read more</button>
                         </div>                          
-                        </div>
+                        </div>  
                       
-                        
-                   
-                    
+                                      
                 </div>
                 <div class="col-3">
                     <div class="card_content_blue bg_gradient">
@@ -80,14 +78,13 @@
 
     .container_card{
         .row{
-            gap: 22px;
+           
             .col-3, .col-6> .card_content, .card_content_blue{
                height: 300px;
             }
 
             
             .bg_image{
-           filter: brightness(80%);
            background-image: url(../assets/img/headway-537308-unsplash-1380x703.jpg);
            background-size: cover;
            
