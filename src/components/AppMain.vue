@@ -5,7 +5,7 @@ import LatestWork from '../components/LatestWork.vue'
 import OurPricing from '../components/OurPricing.vue'
 import LatestPost from '../components/LatestPost.vue'
 import PeopleSay from "../components/PeopleSay.vue";
-
+import Services from '../components/Services.vue'
 
 export default {
         name: "AppMain",
@@ -16,6 +16,7 @@ export default {
            OurPricing,
            LatestPost,
            PeopleSay,
+           Services
 
         }
       
@@ -29,6 +30,7 @@ export default {
    <OurPricing />
    <LatestPost />
    <PeopleSay />
+   <Services />
 </template>
 
 <style>

@@ -80,9 +80,9 @@ export default{
 
      .container{
          .row{
-           
             .col-4{
                 text-align: center;
+
                 
                 img{
                     max-width: 30%;
