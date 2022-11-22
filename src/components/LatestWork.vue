@@ -142,13 +142,17 @@ export default{
     display: flex;
     justify-content: space-between;
     position: relative;
+    .card:hover{
+
+      background: linear-gradient(to bottom right, #b6246e 0%, #f9636b 100%);
+      color: white;
+    }   
     .card{
      height: 220px;
      width: 20%;
      border-radius: 1rem;
      box-shadow:0px 0px 15px #8d8b8b;
      margin-bottom: 3rem;
-         
        
          
        .carosuel_text{

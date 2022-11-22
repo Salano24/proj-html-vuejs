@@ -46,6 +46,7 @@ export default{
             }
         }
     }
+   
 
     .container_pink{
         width: 80%;
@@ -83,6 +84,7 @@ export default{
             button{
                 margin-left: 5rem;
             }
+            
           }
     }
 

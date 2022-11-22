@@ -25,6 +25,17 @@ body{
 
 }
 
+.button_pink:hover{
+  background-image: linear-gradient(to right, #03a7d3e6 , #1d4588);
+  box-shadow:0px 0px 50px #03a7d3e6;
+
+}
+.button_blue:hover{
+  background-image: linear-gradient(to right, #b6246e , #f9636b);
+  box-shadow:0px 0px 50px #f9636b;
+
+}
+
 
 .row{
   display: flex;
