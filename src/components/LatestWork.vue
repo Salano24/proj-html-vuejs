@@ -23,7 +23,7 @@ export default{
         <img src="../assets/img/84316050-0af0-49db-a53a-241d47ddad0e-2-790x576.jpg" alt="">
         <div class="carosuel_text">
         <h6>Mock-up</h6>
-        <span>Digital Experience</span>
+        <span class="card_type">Digital Experience</span>
         </div>
     </div>
 
@@ -31,7 +31,7 @@ export default{
         <img src="../assets/img/8wa60okr-1-790x576.jpg" alt="">
         <div class="carosuel_text">
         <h6>Basket of Flower on table</h6>
-        <span>Branding Strategy</span>
+        <span class="card_type">Branding Strategy</span>
         </div>
     </div>
 
@@ -39,7 +39,7 @@ export default{
         <img src="../assets/img/DRY-1-790x576.jpg" alt="">
         <div class="carosuel_text">
         <h6>Purinky Products</h6>
-        <span>Digital experience</span>
+        <span class="card_type">Digital experience</span>
         </div>
     </div>
 
@@ -47,7 +47,7 @@ export default{
         <img src="../assets/img/a247b00b-3621-470f-b4b8-b3ac46f25907-1-790x576.jpg" alt="">
         <div class="carosuel_text">
         <h6>Satisfy Poster</h6>
-        <span>Branding Strategy</span>
+        <span class="card_type">Branding Strategy</span>
         </div>
     </div>
 
@@ -55,7 +55,7 @@ export default{
         <img src="../assets/img/84316050-0af0-49db-a53a-241d47ddad0e-2-790x576.jpg" alt="">
         <div class="carosuel_text">
         <h6>Mock-up</h6>
-        <span>Digital Experience</span> 
+        <span class="card_type">Digital Experience</span> 
         </div>   
     </div>
 
@@ -146,6 +146,9 @@ export default{
 
       background: linear-gradient(to bottom right, #b6246e 0%, #f9636b 100%);
       color: white;
+      .card_type{
+        color: #e9e9e9;
+      }
     }   
     .card{
      height: 220px;
